@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/store-flower-react/static/css/main.4be9b33b.css",
-    "main.js": "/store-flower-react/static/js/main.9ef195dc.js",
-    "static/js/453.074f229b.chunk.js": "/store-flower-react/static/js/453.074f229b.chunk.js",
-    "index.html": "/store-flower-react/index.html",
-    "main.4be9b33b.css.map": "/store-flower-react/static/css/main.4be9b33b.css.map",
-    "main.9ef195dc.js.map": "/store-flower-react/static/js/main.9ef195dc.js.map",
-    "453.074f229b.chunk.js.map": "/store-flower-react/static/js/453.074f229b.chunk.js.map"
+    "main.css": "/static/css/main.4be9b33b.css",
+    "main.js": "/static/js/main.914806e1.js",
+    "static/js/453.074f229b.chunk.js": "/static/js/453.074f229b.chunk.js",
+    "index.html": "/index.html",
+    "main.4be9b33b.css.map": "/static/css/main.4be9b33b.css.map",
+    "main.914806e1.js.map": "/static/js/main.914806e1.js.map",
+    "453.074f229b.chunk.js.map": "/static/js/453.074f229b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4be9b33b.css",
-    "static/js/main.9ef195dc.js"
+    "static/js/main.914806e1.js"
   ]
 }
