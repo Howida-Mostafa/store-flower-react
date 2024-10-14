@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "firstName": "admin",
+      "lastName": "admin",
+      "email": "admin.admin@example.com",
+      "password": "12345"
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Ali",
+      "email": "sara@example.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Rose Bouquet",
+      "price": 200,
+      "image": "/images/f1.1.webp",
+      "description": "Beautifully arranged roses, perfect for any occasion."
+    },
+    {
+      "id": 2,
+      "name": "Tulip Bundle",
+      "price": 150,
+      "image": "/images/f2.2.webp",
+      "description": "A vibrant bundle of tulips that brightens up any room."
+    },
+    {
+      "id": 3,
+      "name": "Lily Arrangement",
+      "price": 300,
+      "image": "/images/f3.3.webp",
+      "description": "Elegant lilies arranged in a stunning bouquet."
+    }
+  ],
+  "flowers": [
+    {
+      "id": 1,
+      "name": "Jasmine",
+      "image": "/images/jasmine.webp",
+      "description": "A fragrant flower used in perfumes, grown in gardens and homes."
+    },
+    {
+      "id": 2,
+      "name": "Chamomile",
+      "image": "/images/chamomile.webp",
+      "description": "A small white flower used in tea with various health benefits."
+    },
+    {
+      "id": 3,
+      "name": "Camellia",
+      "image": "/images/camellia.webp",
+      "description": "A large flower available in various colors, symbolizing beauty and femininity."
+    },
+    {
+      "id": 4,
+      "name": "Damask Rose",
+      "image": "/images/damaskrose.webp",
+      "description": "Considered one of the most beautiful types of roses with a strong fragrance."
+    },
+    {
+      "id": 5,
+      "name": "Lily",
+      "image": "/images/lily.jpeg",
+      "description": "Elegant lilies represent purity and refined beauty."
+    },
+    {
+      "id": 6,
+      "name": "Chrysanthemum",
+      "image": "/images/chrysanthemum.webp",
+      "description": "Symbol of hope, grown during the fall season."
+    },
+    {
+      "id": 7,
+      "name": "Narcissus",
+      "image": "/images/narcissus.webp",
+      "description": "A flower that blooms in spring with yellow or white petals."
+    },
+    {
+      "id": 8,
+      "name": "Violet",
+      "image": "/images/violet.webp",
+      "description": "A small flower with vibrant colors and a lovely fragrance."
+    }
+  ],
+  "logos": [
+    {
+      "id": 1,
+      "image": "images/TonicBlooms.svg"
+    }
+  ],
+  "deliveryOptions": [
+    {
+      "id": 1,
+      "name": "Express Delivery",
+      "price": 20,
+      "estimatedDelivery": "1-2 days"
+    },
+    {
+      "id": 2,
+      "name": "Standard Delivery",
+      "price": 10,
+      "estimatedDelivery": "3-5 days"
+    }
+  ],
+  "availableLocations": [
+    {
+      "id": 1,
+      "location": "Cairo"
+    },
+    {
+      "id": 2,
+      "location": "Alexandria"
+    },
+    {
+      "id": 3,
+      "location": "Giza"
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "description": "10% off on all flowers in October.",
+      "expiry": "2024-10-31"
+    },
+    {
+      "id": 2,
+      "description": "Buy 3 bouquets and get one free.",
+      "expiry": "2024-12-31"
+    }
+  ]
+}

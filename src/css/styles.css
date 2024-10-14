@@ -1,0 +1,525 @@
+body {
+    font-family: Arial, sans-serif !important;
+    background: linear-gradient(to top, #efaee2, #f1eaef, #a801924f);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+html, body {
+    height: 100%; /* لتحديد ارتفاع الصفحة بالكامل */
+    margin: 0;
+    padding: 0;
+}
+
+.marg{
+    margin-top: 10em !important;
+}
+
+.main-content {
+    flex: 1;
+}
+.back{
+    height: 50px;
+    background-color: rgb(116 90 123);
+    text-align: center;
+}
+.back p{
+    padding-top: 10px;
+    color: #fff;
+}
+.allnavs{
+    /* margin-top: 10px; */
+    justify-content: space-between !important;
+    /* position: sticky !important;
+    top: 0; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.allnav{
+    /* margin-top: 10px; */
+    justify-content: space-between !important;
+   
+   
+}
+.navbar-style{
+    position: relative;
+    top: 50%;
+    left: 10px;
+    /* transform: translateY(-30%); */
+}
+
+.logo{
+    width: 200px;
+     height: 60px;
+     margin-left: 10px
+    }
+    .me-auto a{
+        padding-left: 70px !important;
+        font-size: 24px;
+    }
+.textlogo{
+    font-size: 20px;
+    margin-inline-start: 10px;
+}
+.nav-otherList{
+    display: flex;
+    list-style: none;
+}
+.nav-otherList li{
+    padding-left: 15px;
+    font-size: 24px;
+}
+.nav-otherList li a svg{
+
+    font-size: 38px;
+}
+
+.nav-other{
+    position: relative;
+   
+    right: 29px;
+}
+.about{
+    margin-top: 121px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .img-about{
+    padding-top: 20px;
+} */
+.img-about img{
+    width: 45em;
+    height: 38em;
+   
+}
+.text-about{
+    padding-top: 5em;
+    padding-inline-start: 10em;
+}
+.text-about h1{
+    color: rgb(204, 25, 255);
+    display: flex;
+  flex-direction: column; /* ترتيب العناصر عمودياً */
+  justify-content: center; /* توسيط العناصر عموديًا */
+  align-items: left; /* توسيط العناصر أفقيًا */
+  height: 20vh; /* اجعل ارتفاع الحاوية 100% من ارتفاع الشاشة */
+}
+.text-about h4{
+    color: rgb(132, 62, 150) !important;
+}
+.btn-outline-primary {
+    color: rgb(239, 232, 241) !important;
+    --bs-btn-hover-bg:rgb(204, 25, 255) !important;
+    --bs-btn-hover-border-color:rgb(204, 25, 255) !important;
+    --bs-btn-hover-color: #fff !important;
+    --bs-btn-font-size: 2rem !important;
+    
+    
+}
+.btn {
+    /* position: relative !important; */
+    left: 5em !important;
+    width: 6em !important;
+    margin-top: 1em;
+    border: 1px solid rgb(204, 25, 255) !important;
+}
+/* .text-about button:hover{
+    color:rgb(204, 25, 255) !important ;
+} */
+
+
+    .flower-list {
+        display: flex;
+        flex-wrap: nowrap; 
+        gap: 20px; 
+        justify-content: center;
+        margin-top:10em
+       
+    }
+    .flower-item {
+        /* border: 1px solid #ccc; */
+        /* padding: 10px; */
+        border-radius:10px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        width: 25%; 
+        transition: transform 0.3s ease;
+        /* height: 600px; */
+       
+    }
+
+    .add-to-cart-btn {
+        display: none !important; 
+        position: relative;
+        /* bottom: -63px; */
+      
+        transform: translateX(-50%);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: bottom 0.3s ease;
+        width: 11.9em !important;
+        left: 189px !important;
+    }
+
+    .flower-item:hover .add-to-cart-btn {
+        display: block !important; 
+  
+    }
+
+    .flower-item img {
+        max-width: 100%; 
+        height: auto;
+        transition: transform 0.7s ease; 
+        border-radius:10px;
+    }
+    
+    .flower-item img:hover {
+        transform: scale(2); 
+        max-height: 200%; 
+    }
+    
+
+
+
+.login-container, .register-container {
+    width: 300px;
+    margin: 180px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #843e96 !important;
+    border: none;
+    border-radius: 5px;
+    color: white ;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a016cc;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #cc19ff!important;
+    text-decoration: none !important;
+}
+.bouquet-form {
+    max-width: 400px;
+    margin: 15em auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bouquet-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.flower-selection input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.shape-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.flower-gallery {
+    text-align: center;
+    margin-top:6em
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .gallery-scroll {
+    display: flex;
+    overflow-x: auto; 
+    padding: 20px;
+    gap: 10px; 
+    scroll-behavior: smooth; 
+} */
+
+
+.gallery-scroll {
+    display: flex;
+    overflow-x: auto; 
+    padding: 20px;
+    gap: 10px; 
+    scroll-behavior: smooth;
+}
+
+
+.gallery-scroll::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+}
+
+
+.gallery-scroll::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+}
+
+
+.gallery-scroll::-webkit-scrollbar-thumb {
+    background-color: #d127a6;
+    border-radius: 10px; 
+    border: 2px solid #e70bb0; 
+}
+
+
+.gallery-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #ff92a1; 
+}
+
+
+.gallery-item {
+    min-width: 262px;
+    text-align: center;
+}
+
+.flower-gallery-image {
+    width: 190px;
+    height: 190px;
+    border-radius:10px;
+    object-fit: cover; /* لضمان تناسق الصورة داخل الإطار */
+}
+
+
+.flower-item {
+    margin: 10px;
+}
+.flower-item h2,
+.flower-item h3 {
+    padding-top: 35px;
+}
+
+
+.album-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-us {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h2 {
+    text-align: center;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us input,
+.contact-us textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us button {
+    padding: 10px;
+    background-color: #843e96;
+    ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-us button:hover {
+    background-color: #cc19ff;
+    border: none;;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* @media only screen and (max-width: 600px){
+    .navbar-style{
+        margin-inline-start: 28px;
+    }
+    .nav-other{
+        position: relative;
+        bottom: -8px;
+        right: 29px;
+    }
+    .back {
+        height: 64px;
+    }
+    .about {
+        display: block;
+        justify-content: space-between;
+    }
+    .text-about {
+        padding-top: 5em;
+        padding-inline-start: 1em;
+        text-align: left;
+    }
+    .btn {
+        left: .5em !important;
+        bottom: 5px;
+    }
+    .img-about img {
+         width: 100%; 
+         /*height: 0em; */
+  /*  }
+    .flower-item {
+        width: 100%; 
+    }
+} */
+
+@media only screen and (max-width: 600px){
+    .navbar-style{
+        margin-inline-start: 10px;
+    }
+
+    .nav-other{
+        position: relative;
+        bottom: -8px;
+        right: 10px;
+    }
+
+    .back {
+        height: 76px;
+    }
+    .back p {
+        padding-top: 19px;}
+    .about {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .text-about {
+        padding-top: 3em;
+ 
+        text-align: left;
+    
+        padding-inline-start: 1em;
+    }
+    
+    button {
+        width: 100%;
+    }
+    .btn {
+        left: .5em !important;
+        width: 4em !important;
+        bottom: 5px;
+    }
+    .add-to-cart-btn {
+        display: block !important;
+        left: 153px !important;
+        width: 8.9em !important;
+        background-color: #843e96 !important;
+        color: white !important;
+    }
+
+    .img-about img {
+        width: 100%;
+        height: auto;
+    }
+
+    .flower-item {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    .flower-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .login-container, .register-container {
+        width: 90%; /* تضييق عرض فورم التسجيل */
+    }
+
+    .contact-us {
+        width: 90%; /* تضييق فورم التواصل */
+    }
+
+    /* .flower-gallery-image {
+        width: 100%;
+        height: auto;
+    } */
+
+    .gallery-scroll {
+        gap: 5px; /* تقليل المسافات بين الصور */
+    }
+}
