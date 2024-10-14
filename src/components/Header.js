@@ -9,8 +9,8 @@ function Header() {
     const [logo, setLogo] = useState('');
     
     useEffect(() => {
-        setLogo(data.logos[0].image); // تم تعديل هنا إلى 'logos'
-        console.log("Logo set to:", data.logos[0].image); // تحقق من الصورة المعينة
+        setLogo(data.logos[0].image);
+        console.log("Logo set to:", data.logos[0].image); 
     }, []);
     
     return (
